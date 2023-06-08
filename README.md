@@ -6,20 +6,20 @@ Original source datasets from RecipeQA have been downloaded and can be accessed 
 
 Fine tuning Generative Question Answering task learnt from Hugging Face course: https://huggingface.co/learn/nlp-course/chapter7/7?fw=pt
 
-##Requirements
+## Requirements
 
 Install dependencies used in the project using the command
 ```
 pip install -r requirements.txt
 ```
 
-##Files
+## Files
 - `making_dataset.py`: Contains the `QADataset` class for downloading and converting the question answering dataset from original dataset.
 - `preprocessing.py`: Contains the `Preprocessing` class responsible for preprocessing the input data.
 - `model.py`: Contains the `Model` class to perform fine-tuning on different pre-trained models
 - `hpo.py`: Contains the `HPO` class to perform hyper-parameter optimization.
 
-##Classes
+## Classes
 
 ### `QADataset`
 - Download data from Google Drive and convert data to desired format for Extractive Question Answering
